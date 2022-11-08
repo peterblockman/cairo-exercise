@@ -1,8 +1,5 @@
 %lang starknet
 
-from starkware.cairo.common.alloc import alloc
-from starkware.cairo.common.serialize import serialize_word
-
 func compute_poly() -> felt {
     [ap] = 100, ap++;
     [ap] = [ap - 1] + 23, ap++;
